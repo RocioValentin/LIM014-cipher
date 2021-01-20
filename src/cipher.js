@@ -1,7 +1,11 @@
 const cipher = {
+  
+
   //...
 };
 
+//let num;
+//let str;
 
 //creando la funcion Encode
 cipher.Encode = function(num,str){
