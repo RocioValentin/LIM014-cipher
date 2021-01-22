@@ -4,7 +4,6 @@ import cipher from './cipher.js';
 let num;
 let str;
 
-
 //console.log(cipher);
 
 //funcionalidad a los botones
