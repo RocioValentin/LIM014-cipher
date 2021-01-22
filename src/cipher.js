@@ -6,7 +6,7 @@ const cipher = {
 cipher.encode = function(num,str){
 
   if (typeof num !== 'number' || isNaN(num) || num ==='' || typeof str !== 'string'){
-    throw new TypeError("Invalido")
+    throw new TypeError("Los datos ingresados son inválidos")
   }
 
   let newStr = "";
@@ -26,7 +26,7 @@ return newStr;
 cipher.decode = function(num,str){
 
   if (typeof num !== 'number' || isNaN(num) || num ==='' || typeof str !== 'string'){
-    throw new TypeError ("invalido")
+    throw new TypeError ("Los datos ingresados son inválidos")
   }
 
   let newStr1 = "";
