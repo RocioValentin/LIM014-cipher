@@ -8,6 +8,8 @@ Encriptado de claves
 
 Los usuarios deberán ingresar sus nuevas claves a ser encriptadas, eligen la segmentación que desean. Al obtener la clave encriptada, lo utilizan en la web gubernamental. Tambien tienen la opción de desencriptar.
 [linkPlanning](https://trello.com/b/NPCLDUsD/backlog)
+![Prototipo](Prototipo.jpg)
+
 
 # HTML
 

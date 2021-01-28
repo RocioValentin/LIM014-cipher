@@ -14,8 +14,8 @@ cipher.encode = function(num,str){
   for (let i = 0; i < str.length; i++){
 
   //variables para realizar la operacion
-  var asciiNum = str[i].charCodeAt();
-  var asciiNew = (asciiNum - 65 + num)%26 + 65;
+  let asciiNum = str[i].charCodeAt();
+  let asciiNew = (asciiNum > 64 && asciiNum < 91)?(asciiNum - 65 + num)%26 + 65:alert('Pro favor ingresa solo mayúsculas');
   
   //resultado concatenado
   newStr += String.fromCharCode(asciiNew);
@@ -33,15 +33,21 @@ cipher.decode = function(num,str){
   for (let i = 0; i < str.length; i++){
     
     //variables para realizar la operacion
-    var asciiNum1 = str[i].charCodeAt();
-    var letra = asciiNum1 - 65;
-    var asciiNew1;
-    if (num > letra){
-      asciiNew1 = (25 -((num-1) - letra)%26) + 65;
+    let asciiNum1 = str[i].charCodeAt();
+    let letra = asciiNum1 - 65;
+    let asciiNew1;
+    if (asciiNum1 > 64 && asciiNum1 < 91){
+        if (num > letra){
+          asciiNew1 = (25 -((num-1) - letra)%26) + 65;
+        }
+        else{
+          asciiNew1 = (asciiNum1 - 65 - num)%26 + 65;
+        }
     }
     else{
-      asciiNew1 = (asciiNum1 - 65 - num)%26 + 65;
+      alert('Aceptamos solo mayúsculas');
     }
+    
     
     newStr1 += String.fromCharCode(asciiNew1); 
   }
