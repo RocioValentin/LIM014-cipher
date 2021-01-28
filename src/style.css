@@ -3,27 +3,19 @@ body {
     background-size: 100%;
     text-align: center;
 }
-/*.root{
-    background-color: #027179;
-    width: 30rem;
-    height: 17rem;
-    margin: 0 auto;
-    border-radius: 4px;
-    
-}*/
 h1{
     font-size: 2.3rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0 auto;
     color: white;
-    background-color: #027179;
+    background-color: #027179c2;
     width: 40rem;
     height: 3rem;
     border-radius: 4px;
     padding: 2rem;
 }  
 .caja1{
-    background-color: #bef4f8af;
+    background-color: #bef4f8e1;
     width: 30rem;
     height: 17rem;
     margin:2rem auto;
