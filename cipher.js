@@ -15,7 +15,7 @@ cipher.encode = function(num,str){
 
   //variables para realizar la operacion
   let asciiNum = str[i].charCodeAt();
-  let asciiNew = (asciiNum > 64 && asciiNum < 91)?(asciiNum - 65 + num)%26 + 65:alert('Pro favor ingresa solo mayúsculas');
+  let asciiNew = (asciiNum > 64 && asciiNum < 91)?(asciiNum - 65 + num)%26 + 65:alert('Por favor ingresa solo mayúsculas');
   
   //resultado concatenado
   newStr += String.fromCharCode(asciiNew);
