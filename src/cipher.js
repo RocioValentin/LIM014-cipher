@@ -55,3 +55,5 @@ cipher.decode = function(num,str){
 }
 
 export default cipher;
+
+//Hola Fares estuvo aquí
